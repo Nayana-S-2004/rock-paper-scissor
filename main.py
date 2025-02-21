@@ -24,8 +24,8 @@ else:
     elif(computer==0 and you==1):
         print("you win!")
     elif(computer==-1 and you==1):
-        print("you win!")
+        print("computer win!")
     elif(computer==1 and you==-1):
-        print("Computer win!")
+        print("You win!")
     else:
         print("Something went wrong!")
