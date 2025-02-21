@@ -24,10 +24,10 @@ else:
     # elif(computer==0 and you==1):(computer-you=-1)
     #     print("you win!")
     # elif(computer==-1 and you==1):(computer-you=-2)
-    #     print("you win!")
+    #     print("you lose!")
     # elif(computer==1 and you==-1):(computer-you=2)
-    #     print("Yoy lose!")h
-    if(computer-you==-1 or computer-you==-2):
+    #     print("Yoy win!")h
+    if(computer-you==-1 or computer-you==2):
         print("You Win!")
     else:
         print("You lose!")
